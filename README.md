@@ -25,7 +25,7 @@ PocketLedger is a desktop personal expense tracker built with Python, Tkinter, S
 
 The `expenses.db` database is created automatically beside the application. Delete that file if you want to start with an empty database.
 
-## Portfolio description
+Description
 
 > I built PocketLedger, a desktop personal-finance application that helps users record income and expenses, review monthly activity, search their transaction history, and export reports. I designed the interface in Tkinter and implemented persistent local storage with SQLite. The project strengthened my skills in database CRUD operations, input validation, event-driven interfaces, filtering, and file exports.
 
