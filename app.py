@@ -1,5 +1,3 @@
-"""PocketLedger - a portfolio-ready personal expense tracker."""
-
 from __future__ import annotations
 
 import csv
