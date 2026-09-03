@@ -16,7 +16,7 @@ PocketLedger is a desktop personal expense tracker built with Python, Tkinter, S
 ## Run the application
 
 1. Install Python 3.10 or newer from [python.org](https://www.python.org/downloads/).
-2. Open a terminal in this folder.
+2. git https://github.com/vbelgar9/pocketledger.git
 3. Run:
 
    ```powershell
