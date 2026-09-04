@@ -81,7 +81,7 @@ class ExpenseTracker(tk.Tk):
         super().__init__()
         self.db = ExpenseDatabase()
         self.selected_id: int | None = None
-        self.title("PocketLedger — Personal Expense Tracker")
+        self.title("SanBudget — Personal Expense Tracker")
         self.geometry("1120x720")
         self.minsize(920, 620)
         self.configure(bg=self.COLORS["paper"])
@@ -102,7 +102,7 @@ class ExpenseTracker(tk.Tk):
         header = tk.Frame(self, bg=self.COLORS["navy"], height=78)
         header.pack(fill="x")
         header.pack_propagate(False)
-        tk.Label(header, text="PocketLedger", bg=self.COLORS["navy"], fg="white", font=("Segoe UI Semibold", 23)).pack(side="left", padx=(28, 8))
+        tk.Label(header, text="SanBudget", bg=self.COLORS["navy"], fg="white", font=("Segoe UI Semibold", 23)).pack(side="left", padx=(28, 8))
         tk.Label(header, text="Spend with clarity.", bg=self.COLORS["navy"], fg="#b8c2d8", font=("Segoe UI", 11)).pack(side="left", pady=(9, 0))
         tk.Button(header, text="Export CSV", command=self.export_csv, bg=self.COLORS["orange"], fg=self.COLORS["navy"], activebackground="#ffb43b", relief="flat", padx=16, pady=8, font=("Segoe UI Semibold", 10), cursor="hand2").pack(side="right", padx=28)
 
