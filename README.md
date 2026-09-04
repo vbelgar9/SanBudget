@@ -7,7 +7,7 @@ and SQLite. It provides a focused interface for recording income and expenses,
 reviewing monthly activity, searching transaction history, and exporting
 reports—without requiring an internet connection or third-party packages.
 
-![SanBudget dashboard](https://vbelgar9.github.io/pocketledger-dashboard.png)
+![SanBudget dashboard](https://vbelgar9.github.io/sanbadguetdashboard.png)
 
 ## Features
 
